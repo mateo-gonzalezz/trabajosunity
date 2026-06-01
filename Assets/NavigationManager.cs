@@ -28,4 +28,18 @@ public class NavigationManager : MonoBehaviour
         Debug.Log("boton presionado");
         SceneManager.LoadScene("pagina principal");
     }
+    public void AbrirSoundCloud()
+    {
+        Application.OpenURL("https://on.soundcloud.com/2ThCdrfTrhETsR2aHK");
+    }
+
+    public void AbrirInstagram()
+    {
+        Application.OpenURL("https://www.instagram.com/keletto.music?igsh=NG5zZXR1NzZkaXcy&utm_source=qr");
+    }
+
+    public void AbrirTikTok()
+    {
+        Application.OpenURL("https://www.tiktok.com/@kelettto?_r=1&_t=ZS-96r4IO87tI8");
+    }
 }
